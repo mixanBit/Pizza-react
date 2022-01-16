@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Roboto:wght@300;400;500;700&display=swap');
+
+/* font-family: 'Inter', sans-serif;
+font-family: 'Roboto', sans-serif; */
+
+body{
+  background-color: var(--bodyBg);
+}
+
+*{
+  /* border: 1px solid; */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+a{
+  text-decoration: none;
+}
+
+button, input{
+  border: none;
+  outline: none;
+  background-color: rgba(0,0,0,0);
+}
+
+hr{
+  border: none;
+}

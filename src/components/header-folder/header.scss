@@ -1,0 +1,136 @@
+header{
+  width: 100%;
+  background-color: var(--headerBg);
+  margin: auto;
+}
+
+.header_info{
+  width: var(--width);
+  min-height: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+    .address{
+      display: flex;
+      align-items: center;
+      grid-gap: 40px;
+      font-size: 14px;
+        @media(max-width: 1024px) {
+          width: 100%;
+          justify-content: space-between;
+        }
+        .city{
+          user-select: none;
+          display: flex;
+          align-items: center;
+          grid-gap: 11px;
+            .icon_map{
+              width: 13px;
+            }
+            button{
+              cursor: pointer;
+              display: flex;
+              align-items: center;
+              grid-gap: 8px;
+              font-size: 14px;
+                .icon_arrow{
+                  width: 12px;
+                }
+            }
+        }
+        .check_address{
+          user-select: none;
+          cursor: pointer;
+          font-size: 14px;
+            @media(max-width: 1024px) {
+              display: none;
+            }
+        }
+    }
+
+    .user{
+      display: flex;
+      align-items: center;
+      grid-gap: 40px;
+        .working_hours{
+          @media(max-width: 1024px) {
+            display: none;
+          }
+        }
+        .login{
+          display: flex;
+          align-items: center;
+          grid-gap: 10px;
+            @media(max-width: 1024px) {
+              display: none;
+            }
+            .icon_account{
+              width: 17px;
+            }
+            .login_account{
+              user-select: none;
+              display: flex;
+              align-items: center;
+              font-size: 14px;
+            }
+        }
+    }
+}
+
+.hr_header{
+  height: 1px;
+  background-color: var(--hrBg);
+}
+
+.header_design{
+  width: var(--width);
+  min-height: 64px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+    .logo{
+      display: flex;
+      align-items: center;
+      grid-gap: 12px;
+        .icon_logo{
+          width: 32px;
+        }
+        .text_logo{
+          user-select: none;
+          font-size: 18px;
+        }
+    }
+    .block_menu{
+      display: flex;
+      align-items: center;
+      grid-gap: 20px;
+    }
+    .basket{
+      user-select: none;
+      border-radius: 4px;
+      cursor: pointer;
+      min-width: 89px;
+      height: 40px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      grid-gap: 8px;
+      font-size: 16px;
+      color: var(--backetColor);
+      background-color: var(--backetBg);
+        @media(max-width: 425px) {
+          display: none;
+        }
+        .icon_basket{
+          width: 24px;
+        }
+    }
+}
+
+.btn_sidebar{
+  @media(min-width: 1025px) {
+    display: none;
+  }
+}

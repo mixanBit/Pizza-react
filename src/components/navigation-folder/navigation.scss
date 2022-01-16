@@ -1,0 +1,27 @@
+.navigation{
+  width: var(--width);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-gap: 30px;
+  margin: auto;
+  margin-top: 31px;
+}
+
+.navigation_items{
+  border: 1px solid var(--navigationItemsBorder);
+  border-radius: 12px;
+  width: 135px;
+  height: 104px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  grid-gap: 8px;
+  background-color: var(--navigationItemsBg);
+    .navigation_heading{
+      font-size: 18px;
+      font-weight: 500;
+      color: var(--navigationItemsColor);
+    }
+}

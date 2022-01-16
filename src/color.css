@@ -1,0 +1,29 @@
+:root{
+  --width: 1290px;
+
+  /* index.css */
+  --bodyBg: #f9f9f9;
+
+  /* heading.scss */
+  --headerBg: white;
+  --hrBg: #F0F0F0;
+  --backetColor: white;
+  --backetBg: #FF7010;
+
+  /* navigation.scss */
+  --navigationItemsBorder: #F0F0F0;
+  --navigationItemsColor: #191919;
+  --navigationItemsBg: white;
+}
+
+@media(max-width: 1330px) {
+  :root{
+    --width: 97%;
+  }
+}
+
+@media(max-width: 425px) {
+  :root{
+    --width: 93%;
+  }
+}
