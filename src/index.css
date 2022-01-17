@@ -15,6 +15,13 @@ body{
   font-family: 'Roboto', sans-serif;
 }
 
+@media (hover: none) and (pointer: coarse) {
+  *, a, button, input{
+    cursor: none !important;
+  }
+
+}
+
 a{
   text-decoration: none;
 }
@@ -27,4 +34,9 @@ button, input{
 
 hr{
   border: none;
+}
+
+.body_main{
+  width: var(--width);
+  margin: auto;
 }

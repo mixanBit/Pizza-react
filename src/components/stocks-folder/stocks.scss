@@ -1,0 +1,41 @@
+.stocks{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  margin-top: 30px;
+}
+
+.stocks_item{
+  border-radius: 12px;
+  width: 300px;
+  height: 343px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+    &:nth-child(odd){
+      background-color: var(--stocksItemsBg1);
+    }
+    &:nth-child(even){
+      background-color: var(--stocksItemsBg2);
+    }
+    @media(max-width: 768px) {
+      width: 280px;
+      height: 320px;
+    }
+}
+
+.img_stocks{
+  width: 100%;
+  margin: auto;
+  margin-top: 0;
+}
+
+.stocks_item_text{
+  width: 240px;
+  font-size: 20px;
+  color: var(--stocksItemsColor);
+  margin: auto;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
