@@ -38,5 +38,14 @@ hr{
 
 .body_main{
   width: var(--width);
+  min-height: 400px;
+  position: relative;
+  overflow: hidden;
   margin: auto;
+}
+
+@media(max-width: 768px) {
+  .body_main {
+    width: 100%;
+  }
 }

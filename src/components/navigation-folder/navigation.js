@@ -1,5 +1,4 @@
 import React from "react";
-import NavigationItems from './navigation-items'
 import './navigation.css'
 
 let menuItems = [
@@ -40,6 +39,17 @@ let menuItems = [
 export default function header() {
 
   return (
-      <NavigationItems menuItems={menuItems}/>
+    <nav className="navigation">
+      {menuItems.map((menuItems) => {
+        return (
+          <a href="##">
+            <div className="navigation_items">
+              <img className="icon_navigation_item" src={menuItems.navigationIcon} alt={menuItems.navigationText} />
+              <h2 className="navigation_heading">{menuItems.navigationText}</h2>
+            </div>
+          </a>
+        )
+      })}
+    </nav>
   )
 }

@@ -21,6 +21,11 @@
   --stocksItemsColor: white;
   --stocksItemsBg1: #FF7010;
   --stocksItemsBg2: #E23535;
+
+  /* description.scss */
+  --descriptionHeadingColor: #191919;
+  --descriptionTextColor: #191919;
+  --descriptionBtnColor: #FF7010;
 }
 
 @media(max-width: 1330px) {
@@ -31,6 +36,6 @@
 
 @media(max-width: 425px) {
   :root{
-    --width: 93%;
+    --width: 90%;
   }
 }

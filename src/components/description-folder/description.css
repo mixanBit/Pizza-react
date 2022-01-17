@@ -1,0 +1,45 @@
+.description {
+  width: 850px;
+  position: relative;
+  margin: auto;
+  margin-top: 60px;
+}
+@media (max-width: 1024px) {
+  .description {
+    width: var(--width);
+  }
+}
+
+.description_heading {
+  color: var(--descriptionHeadingColor);
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.description_text {
+  position: relative;
+  color: var(--descriptionTextColor);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  margin-top: 16px;
+}
+.description_text .translucent_background {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(249, 249, 249, 0)), to(#f9f9f9));
+  background: linear-gradient(180deg, rgba(249, 249, 249, 0), #f9f9f9);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.description_btn_show {
+  cursor: pointer;
+  color: var(--descriptionBtnColor);
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 16px;
+}
