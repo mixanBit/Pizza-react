@@ -8,6 +8,7 @@ import Header from './components/header-folder/header'
 import Navigation from './components/navigation-folder/navigation'
 import Stocks from './components/stocks-folder/stocks'
 import Description from './components/description-folder/description'
+import Footer from './components/footer-folder/footer'
 
 // style
 import './index.css';
@@ -22,6 +23,7 @@ ReactDOM.render(
       <Stocks />
       <Description />
     </main>
+    <Footer />
   </React.StrictMode>,
   document.getElementById('app')
 );

@@ -90,18 +90,6 @@ header{
   justify-content: space-between;
   align-items: center;
   margin: auto;
-    .logo{
-      display: flex;
-      align-items: center;
-      grid-gap: 12px;
-        .icon_logo{
-          width: 32px;
-        }
-        .text_logo{
-          user-select: none;
-          font-size: 18px;
-        }
-    }
     .block_menu{
       display: flex;
       align-items: center;
@@ -126,6 +114,19 @@ header{
         .icon_basket{
           width: 24px;
         }
+    }
+}
+
+.logo{
+  display: flex;
+  align-items: center;
+  grid-gap: 12px;
+    .icon_logo{
+      width: 32px;
+    }
+    .text_logo{
+      user-select: none;
+      font-size: 18px;
     }
 }
 

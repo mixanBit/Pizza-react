@@ -34,6 +34,5 @@ export default function Stocks() {
         )
       })}
     </section>
-    // <StocksItems stocksItemsArray={stocksItemsArray}/>
   )
 }

@@ -26,6 +26,13 @@
   --descriptionHeadingColor: #191919;
   --descriptionTextColor: #191919;
   --descriptionBtnColor: #FF7010;
+
+  /* footer.scss */
+  --footerBg: white;
+  --footerBorder: #F0F0F0;
+  --footerHeadingColor: #191919;
+  --footerLinkColor: #191919;
+  --footerHr: #F0F0F0;
 }
 
 @media(max-width: 1330px) {

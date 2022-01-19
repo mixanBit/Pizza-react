@@ -4,35 +4,43 @@ import './navigation.css'
 let menuItems = [
   {
     navigationIcon: './images/navigation-icons/Fire.png',
-    navigationText: 'Акции'
+    navigationText: 'Акции',
+    navigationLink: '##'
   },
   {
     navigationIcon: './images/navigation-icons/Pizza.png',
-    navigationText: 'Пицца'
+    navigationText: 'Пицца',
+    navigationLink: '##'
   },
   {
     navigationIcon: './images/navigation-icons/Sushi.png',
-    navigationText: 'Суши'
+    navigationText: 'Суши',
+    navigationLink: '##'
   },
   {
     navigationIcon: './images/navigation-icons/Drinks.png',
-    navigationText: 'Напитки'
+    navigationText: 'Напитки',
+    navigationLink: '##'
   },
   {
     navigationIcon: './images/navigation-icons/Snacks.png',
-    navigationText: 'Закуски'
+    navigationText: 'Закуски',
+    navigationLink: '##'
   },
   {
     navigationIcon: './images/navigation-icons/Combo.png',
-    navigationText: 'Комбо'
+    navigationText: 'Комбо',
+    navigationLink: '##'
   },
   {
     navigationIcon: './images/navigation-icons/Desserts.png',
-    navigationText: 'Десерты'
+    navigationText: 'Десерты',
+    navigationLink: '##'
   },
   {
     navigationIcon: './images/navigation-icons/Sauces.png',
-    navigationText: 'Соусы'
+    navigationText: 'Соусы',
+    navigationLink: '##'
   }
 ]
 
@@ -42,7 +50,7 @@ export default function header() {
     <nav className="navigation">
       {menuItems.map((menuItems) => {
         return (
-          <a href="##">
+          <a href={menuItems.navigationLink}>
             <div className="navigation_items">
               <img className="icon_navigation_item" src={menuItems.navigationIcon} alt={menuItems.navigationText} />
               <h2 className="navigation_heading">{menuItems.navigationText}</h2>
